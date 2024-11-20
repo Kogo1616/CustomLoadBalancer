@@ -2146,11 +2146,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/sabakoghuashvili/Desktop/Test-Project/LoadBalancerV2/LoadBalancer/LoadBalancer.csproj",
+      "projectUniqueName": "/Users/sabakoghuashvili/Desktop/CustomLoadBalancer/CustomLoadBalancer/LoadBalancer/LoadBalancer.csproj",
       "projectName": "LoadBalancer",
-      "projectPath": "/Users/sabakoghuashvili/Desktop/Test-Project/LoadBalancerV2/LoadBalancer/LoadBalancer.csproj",
+      "projectPath": "/Users/sabakoghuashvili/Desktop/CustomLoadBalancer/CustomLoadBalancer/LoadBalancer/LoadBalancer.csproj",
       "packagesPath": "/Users/sabakoghuashvili/.nuget/packages/",
-      "outputPath": "/Users/sabakoghuashvili/Desktop/Test-Project/LoadBalancerV2/LoadBalancer/obj/",
+      "outputPath": "/Users/sabakoghuashvili/Desktop/CustomLoadBalancer/CustomLoadBalancer/LoadBalancer/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/sabakoghuashvili/.nuget/NuGet/NuGet.Config"

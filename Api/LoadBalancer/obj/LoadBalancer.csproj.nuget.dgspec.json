@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/sabakoghuashvili/Desktop/CustomLoadBalancer/CustomLoadBalancer/LoadBalancer/LoadBalancer.csproj": {}
+    "/Users/sabakoghuashvili/Desktop/CustomLoadBalancer/Api/LoadBalancer/LoadBalancer.csproj": {}
   },
   "projects": {
-    "/Users/sabakoghuashvili/Desktop/CustomLoadBalancer/CustomLoadBalancer/LoadBalancer/LoadBalancer.csproj": {
+    "/Users/sabakoghuashvili/Desktop/CustomLoadBalancer/Api/LoadBalancer/LoadBalancer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/sabakoghuashvili/Desktop/CustomLoadBalancer/CustomLoadBalancer/LoadBalancer/LoadBalancer.csproj",
+        "projectUniqueName": "/Users/sabakoghuashvili/Desktop/CustomLoadBalancer/Api/LoadBalancer/LoadBalancer.csproj",
         "projectName": "LoadBalancer",
-        "projectPath": "/Users/sabakoghuashvili/Desktop/CustomLoadBalancer/CustomLoadBalancer/LoadBalancer/LoadBalancer.csproj",
+        "projectPath": "/Users/sabakoghuashvili/Desktop/CustomLoadBalancer/Api/LoadBalancer/LoadBalancer.csproj",
         "packagesPath": "/Users/sabakoghuashvili/.nuget/packages/",
-        "outputPath": "/Users/sabakoghuashvili/Desktop/CustomLoadBalancer/CustomLoadBalancer/LoadBalancer/obj/",
+        "outputPath": "/Users/sabakoghuashvili/Desktop/CustomLoadBalancer/Api/LoadBalancer/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/sabakoghuashvili/.nuget/NuGet/NuGet.Config"
@@ -38,25 +38,13 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
-            "Microsoft.Extensions.Configuration": {
+            "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
-              "version": "[9.0.0, )"
+              "version": "[7.0.1, )"
             },
-            "Microsoft.Extensions.Configuration.Binder": {
+            "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[9.0.0, )"
-            },
-            "Microsoft.Extensions.Configuration.Json": {
-              "target": "Package",
-              "version": "[9.0.0, )"
-            },
-            "Microsoft.Extensions.DependencyInjection": {
-              "target": "Package",
-              "version": "[9.0.0, )"
-            },
-            "Microsoft.Extensions.Hosting": {
-              "target": "Package",
-              "version": "[9.0.0, )"
+              "version": "[6.4.0, )"
             }
           },
           "imports": [
@@ -71,6 +59,9 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
